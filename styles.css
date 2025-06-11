@@ -35,7 +35,7 @@ ul {
 }
 
 ul li {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
   margin-bottom: 10px;
   border-left: 5px solid #004080;
@@ -49,13 +49,24 @@ footer {
   margin-top: 30px;
 }
 
-#lista-projetos img {
+#lista-projetos a {
+  text-decoration: none;
+}
+
+#lista-projetos a img {
   border-radius: 10px;
   margin-top: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-#lista-projetos img:hover {
+#lista-projetos a img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
+
+.img-arredondada {
+  border-radius: 50px; /* ou 20%, ou 50% para circular */
+}
+
+
