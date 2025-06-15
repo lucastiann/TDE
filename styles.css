@@ -69,4 +69,21 @@ footer {
   border-radius: 50px; /* ou 20%, ou 50% para circular */
 }
 
+.sobre {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 5px solid #004080;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
 
+.sobre h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.sobre p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
