@@ -15,6 +15,7 @@ const projetos = [
     titulo: "Site Calculadora Ambiental - Matéria Experiência Criativa",
     descricao: "Mesma proposta do aplicativo, porém em formato de site.", 
     imagem: "imagens/site_calculadora.png",
+    link: "https://oi-ina.github.io/MyFistWebApp/",
   },
   {
     titulo: "Site Portifólio - Matéria Experiência Criativa",
@@ -35,7 +36,8 @@ const projetos = [
   {
     titulo: "TDE Entrevista: Futuro da Profissão - Matéria Filosofia",
     descricao: "Esse trabalho ajudou a ter uma percepção mais ampla do futuro e do mercado de trabalho para essa área da tecnologia, como também me alertou a estar preparado para as mudanças que estão por vir.",
-
+    link: "https://youtu.be/fwlPNZCusw0?feature=shared",
+    imagem: "imagens/youtube.jpg",
   },
 ];
 
